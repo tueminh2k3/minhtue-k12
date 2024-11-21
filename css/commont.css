@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14....=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #676A6C;
+}
+
+body {
+    background-color: #FFF;
+    margin: 0px auto;
+    max-width: 1170px;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #676A6C;
+}

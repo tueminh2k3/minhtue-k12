@@ -1,0 +1,213 @@
+header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: center;
+    padding: 32px 0px;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+header img {
+    width: 164px;
+    height: 36px;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 34px;
+}
+
+header li {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+header a span {
+    background-color: #31C3E0;
+    border-radius: 6px;     
+    padding: 16px 28px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.content {
+    padding-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 140px;
+}
+
+.content h1 {
+    color: #2D3134;
+    font-weight: 700px;
+    font-size: 62px;
+    line-height: 70px;
+}
+
+.main_content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.main_content .article {
+    width: 626px;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 24px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+
+    h2 {
+        color: #2D3134;
+    }
+}
+
+.article img {
+    width: 620px;
+    height: 416px;
+    border-radius: 10px;
+}
+
+.search-blog {
+    width: 448px;
+    border-radius: 10px;
+    padding: 30px 30px 44px 30px;
+    background-color: #ECECEC;
+}
+
+.search-bar {
+    font-family: "Inter";
+}
+
+.main_content .search-blog form {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.search-blog input {
+    border-radius: 8px;
+    border: 1px solid #FFFFFF;
+}
+
+.search-blog input::placeholder {
+    padding: 14px 180px 14px 20px;
+    color: #676A6C;
+}
+
+.search-blog button {
+    border-radius: 8px;
+    border: 0px;
+    color: #fff;
+    padding: 14px 20px;
+    background-color: #FF7B29;
+}
+
+.search-blog h2 {
+    margin-top: 40px;
+    color: #2D3134;
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 30px;
+}
+
+.blog {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 20px;
+}
+
+.blog span {
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #2D3134;
+}
+
+.popular {
+    padding-top: 112px;
+    padding-bottom: 140px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+    width: 370px;
+    height: 554px;
+}
+
+.card .content-one {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 16px;
+}
+
+.card img {
+    width: 370px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.card a h2 {
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #2D3134;
+}
+
+.card p {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #676A6C;
+}
+
+.card .read {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FF7B29;
+}
+
+.popular .see-more {
+    margin-top: 80px;
+
+}
+
+.popular a span {
+    border-radius: 12px;
+    padding: 24px 32px;
+    background-color: #FF7B29;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    color: #fff;
+}
